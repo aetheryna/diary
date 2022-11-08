@@ -1,0 +1,16 @@
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @screen md {
+    padding: 0 40px;
+  }
+
+  @screen lg {
+    padding: 0 20px;
+  }
+
+  @screen xl {
+    padding: 0;
+  }
+}

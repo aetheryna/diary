@@ -1,0 +1,21 @@
+h3 {
+  color: $white-500;
+  font-family: $kanit;
+  font-size: rem(16px);
+  position: relative;
+  max-width: max-content;
+
+  @screen lg {
+    font-size: rem(21px);
+  }
+
+  &:after {
+    left: 0;
+    bottom: -3px;
+    position: absolute;
+    content: '';
+    background-color: $white-500;
+    height: 2px;
+    width: 100%;
+  }
+}
