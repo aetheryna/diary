@@ -1,4 +1,4 @@
-import Navigation from './navigation';
+import HeaderNavigation from './header_navigation';
 import { SlNotebook } from 'react-icons/sl';
 
 const Header = () => {
@@ -8,7 +8,7 @@ const Header = () => {
         <SlNotebook className='header__logo' size={40} />
         {/* TODO */}
         {/* Working on the navigational items later */}
-        {/* <Navigation /> */}
+        {/* <HeaderNavigation /> */}
       </div>
     </header>
   )
