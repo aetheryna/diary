@@ -1,0 +1,14 @@
+.gradient-cut {
+  @apply w-full h-1/3 absolute;
+
+  background: linear-gradient(0deg, rgba($color: $primary, $alpha: 0) 0%, $primary 100%);
+
+  &.position-top {
+    top: 0;
+  }
+
+  &.position-bottom {
+    bottom: 0;
+    transform: rotate(180deg);
+  }
+}

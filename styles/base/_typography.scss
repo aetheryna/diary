@@ -1,6 +1,17 @@
-h3 {
+h1,
+h2,
+h3,
+p,
+a {
   @apply text-white-default;
+}
 
+h1 {
+  font-family: $kanit;
+  font-size: 36px;
+}
+
+h3 {
   font-family: $kanit;
   font-size: rem(16px);
 
@@ -11,7 +22,6 @@ h3 {
 
 a {
   @include base_transition;
-  @apply text-white-default;
 
   font-family: $montserrat;
 
