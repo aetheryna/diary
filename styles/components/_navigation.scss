@@ -1,0 +1,19 @@
+.navigation {
+  @apply flex flex-col items-center;
+
+  &__item {
+    @apply mb-2.5 flex flex-col;
+
+    &:last-child {
+      @apply mb-0;
+    }
+
+    a {
+      font-size: rem(14px);
+    }
+  }
+
+  &__icon {
+    @apply mx-auto mb-1.5;
+  }
+}

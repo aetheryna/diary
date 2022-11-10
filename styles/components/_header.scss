@@ -1,7 +1,25 @@
 .header {
-  padding: 20px 0;
+  @apply py-10 flex flex-row;
 
-  h3 {
-    text-transform: uppercase;
+  .container {
+    display: flex;
+  }
+
+  &__top-details {
+    h3 {
+      @apply mx-auto max-w-max relative uppercase;
+
+      &:after {
+        @apply w-full absolute left-0 bg-white-default;
+
+        bottom: -3px;
+        content: '';
+        height: 2px;
+      }
+    }
+  }
+
+  &__logo {
+    @apply text-white-default;
   }
 }
