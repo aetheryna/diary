@@ -1,0 +1,21 @@
+h3 {
+  @apply text-white-default;
+
+  font-family: $kanit;
+  font-size: rem(16px);
+
+  @screen lg {
+    font-size: rem(21px);
+  }
+}
+
+a {
+  @include base_transition;
+  @apply text-white-default;
+
+  font-family: $montserrat;
+
+  &:hover {
+    @apply opacity-50;
+  }
+}

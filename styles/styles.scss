@@ -3,5 +3,22 @@
 @tailwind components;
 @tailwind utilities;
 
+// Functions
+@import './functions';
+
+// Mixins
+@import './mixins/mixins';
+
 // Base
+@import './base/variables';
 @import './base/reset';
+@import './base/typography';
+
+// Fonts
+@import './fonts/fonts';
+
+// Layouts
+@import './layouts/base';
+
+// Components
+@import './components';
