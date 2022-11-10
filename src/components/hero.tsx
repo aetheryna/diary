@@ -8,7 +8,7 @@ const Hero = () => {
       <div className='container'>
         <div className='hero__details'>
           <h1> Really Cool Title </h1>
-          <p> Something really cool goes here, I don't know what yet but I will figure it out </p>
+          <p> Something really cool goes here, I don&apos;t know what yet but I will figure it out </p>
 
           <div className='hero__blocks'>
             <div className='hero__block'>
