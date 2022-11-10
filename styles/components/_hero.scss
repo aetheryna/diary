@@ -1,0 +1,50 @@
+.hero {
+  @apply relative flex;
+
+  background-image: url('/images/bg1.jpg');
+  height: 700px;
+
+  &:after {
+    @apply absolute left-0 top-0 w-full h-full bg-primary-default;
+
+    content: '';
+    opacity: 0.93;
+  }
+
+  .container {
+    @apply relative z-10 flex items-center;
+  }
+
+  &__details {
+    p {
+      @apply mt-5;
+
+      max-width: 70%;
+    }
+  }
+
+  &__blocks {
+    @apply flex mt-7;
+  }
+
+  &__block {
+    @include base_transition;
+    @apply mr-2.5 rounded-lg bg-white-default w-12 h-12 flex justify-center items-center relative;
+
+    &:last-child {
+      @apply mr-0;
+    }
+
+    &:hover {
+      @apply bg-primary-default;
+
+      svg {
+        @apply text-white-default;
+      }
+    }
+
+    svg {
+      @apply w-8 h-8 text-primary-default;
+    }
+  }
+}
